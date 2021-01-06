@@ -1,8 +1,8 @@
 import numpy as np
 import itertools
 from typing import List, Tuple
-from batchbuilder.fake_data import fake_order_data_random, fake_order_data_fixed_small
-from batchbuilder.indexer import id_provider, Indexer
+from coopheur.batchbuilder.fake_data import fake_order_data_random
+from coopheur.batchbuilder.indexer import id_provider, Indexer
 
 def event_association_aggregator(eventset_ids: np.array, eventset_contents: np.array, max_rule_length: int = 2, rule_count_threshold:int = 0, combination_count_threshold:int=0):
     # store the combinations that are found on the eventsets

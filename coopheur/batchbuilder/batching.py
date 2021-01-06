@@ -1,10 +1,10 @@
 import numpy as np
 from typing import Callable, List
-from batchbuilder.fake_data import fake_batching_data, fake_order_data_random
+from coopheur.batchbuilder.fake_data import fake_batching_data, fake_order_data_random
 from coopbugger.buggers import timer
 import random as rnd
-from batchbuilder.indexer import id_provider, Indexer
-from batchbuilder.association import eventset_association_profiler
+from coopheur.batchbuilder.indexer import id_provider, Indexer
+from coopheur.batchbuilder.association import eventset_association_profiler
 
 def max_commonality_aggregator(old: np.array, new: np.array) -> np.array:
     if old is None:

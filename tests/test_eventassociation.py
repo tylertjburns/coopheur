@@ -1,8 +1,8 @@
 import unittest
-from batchbuilder.association import eventset_association_profiler, event_association_aggregator, event_association_profiler, str_of_rule
-from batchbuilder.fake_data import fake_order_data_random
-from batchbuilder.indexer import id_provider, Indexer
-import numpy as np
+from coopheur.batchbuilder.association import event_association_aggregator, event_association_profiler, str_of_rule
+from coopheur.batchbuilder.fake_data import fake_order_data_random
+from coopheur.batchbuilder.indexer import id_provider, Indexer
+
 
 class Test_EventAssociation(unittest.TestCase):
 

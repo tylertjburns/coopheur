@@ -67,7 +67,7 @@ def fake_order_data_fixed_small() -> (np.array, np.array):
 
 
 if __name__ == "__main__":
-    from batchbuilder.indexer import Indexer, id_provider
+    from coopheur.batchbuilder.indexer import Indexer, id_provider
     associations, priorities = fake_batching_data(10)
 
     print(associations)
