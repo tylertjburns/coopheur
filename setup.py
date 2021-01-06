@@ -6,9 +6,9 @@ with open('README.md') as f:
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
-setuptools.setup(name='coopio',
-      version='0.17',
-      description='Library for creating data services',
+setuptools.setup(name='coopheur',
+      version='0.1',
+      description='Repository of Heuristics that are general purpose',
       url='https://github.com/tylertjburns/coopio',
       author='tburns',
       author_email='tyler.tj.burns@gmail.com',
