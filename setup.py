@@ -9,7 +9,7 @@ with open('requirements.txt') as f:
 setuptools.setup(name='coopheur',
       version='0.1',
       description='Repository of Heuristics that are general purpose',
-      url='https://github.com/tylertjburns/coopio',
+      url='https://github.com/tylertjburns/coopheur',
       author='tburns',
       author_email='tyler.tj.burns@gmail.com',
       license='MIT',
